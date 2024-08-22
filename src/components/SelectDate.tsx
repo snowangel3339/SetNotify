@@ -27,7 +27,7 @@ const SelectDate: React.FC<{
         value={date}
         onChange={handleDateChange}
         displayFormat="DD/MM/YYYY"
-        className="border rounded-md px-0 py-2"
+        // className="border rounded-md px-0 py-2"
         asSingle
         useRange={false}
       />
